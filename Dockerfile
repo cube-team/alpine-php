@@ -21,7 +21,12 @@ RUN apk --update add \
     php7-opcache \
     php7-xml \
     php7-zip \
+    php7-bz2 \
+    php7-iconv \
+    php7-ctype \
+    php7-gettext \
     php7-redis \
+    php7-sqlite3 \
     && rm -rf /var/cache/apk/*
 
 # Add user and group for nginx and php-fpm
