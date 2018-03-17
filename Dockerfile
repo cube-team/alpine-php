@@ -15,6 +15,9 @@ RUN apk --update add \
     php7-mcrypt \
     php7-opcache \
     php7-xml \
+    php7-simplexml \
+    php7-xmlreader \
+    php7-xmlwriter \
     php7-zip \
     php7-bz2 \
     php7-iconv \
@@ -22,4 +25,8 @@ RUN apk --update add \
     php7-gettext \
     php7-redis \
     php7-sqlite3 \
+    php7-phar \
+    php7-openssl \
+    php7-dom \
+    php7-tokenizer \
     && rm -rf /var/cache/apk/*
