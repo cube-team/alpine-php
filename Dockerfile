@@ -29,4 +29,5 @@ RUN apk --update add \
     php7-openssl \
     php7-dom \
     php7-tokenizer \
+    php7-gd \
     && rm -rf /var/cache/apk/*
