@@ -30,4 +30,5 @@ RUN apk --update add \
     php7-dom \
     php7-tokenizer \
     php7-gd \
+    php7-zlib \
     && rm -rf /var/cache/apk/*
