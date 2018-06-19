@@ -34,3 +34,6 @@ RUN apk --update add \
     librdkafka \
     librdkafka-dev \
     && rm -rf /var/cache/apk/*
+
+RUN pecl install rdkafka
+RUN echo "extension=rdkafka.so" > /etc/php7/conf.d/rdkafka.ini
