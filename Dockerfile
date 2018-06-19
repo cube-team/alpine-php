@@ -31,4 +31,6 @@ RUN apk --update add \
     php7-tokenizer \
     php7-gd \
     php7-zlib \
+    librdkafka \
+    librdkafka-dev \
     && rm -rf /var/cache/apk/*
